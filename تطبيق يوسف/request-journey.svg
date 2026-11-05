@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" direction="rtl">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333333"/>
+    </marker>
+  </defs>
+  <rect width="900" height="360" fill="#f4f8fc" stroke="#1f4e79" stroke-width="2"/>
+  <text x="450" y="35" font-size="22" font-weight="bold" text-anchor="middle" fill="#1f4e79">رحلة طلب موقع إلكتروني من المستخدم إلى الخادم</text>
+
+  <rect x="720" y="80" width="150" height="70" rx="10" fill="#d9ead3" stroke="#38761d" stroke-width="2"/>
+  <text x="795" y="110" font-size="16" text-anchor="middle">1. المستخدم</text>
+  <text x="795" y="132" font-size="13" text-anchor="middle">example.com</text>
+
+  <rect x="520" y="80" width="150" height="70" rx="10" fill="#fff2cc" stroke="#bf9000" stroke-width="2"/>
+  <text x="595" y="110" font-size="16" text-anchor="middle">2. المتصفح</text>
+  <text x="595" y="132" font-size="13" text-anchor="middle">فحص الذاكرة المؤقتة</text>
+
+  <rect x="320" y="80" width="150" height="70" rx="10" fill="#cfe2f3" stroke="#1155cc" stroke-width="2"/>
+  <text x="395" y="110" font-size="16" text-anchor="middle">3. خادم DNS</text>
+  <text x="395" y="132" font-size="13" text-anchor="middle">Resolver</text>
+
+  <rect x="120" y="80" width="150" height="70" rx="10" fill="#ead1dc" stroke="#a64d79" stroke-width="2"/>
+  <text x="195" y="110" font-size="16" text-anchor="middle">4. Root / TLD</text>
+  <text x="195" y="132" font-size="13" text-anchor="middle">Authoritative NS</text>
+
+  <rect x="120" y="230" width="150" height="70" rx="10" fill="#f4cccc" stroke="#cc0000" stroke-width="2"/>
+  <text x="195" y="260" font-size="16" text-anchor="middle">5. عنوان IP</text>
+  <text x="195" y="282" font-size="13" text-anchor="middle">93.184.216.34</text>
+
+  <rect x="400" y="230" width="150" height="70" rx="10" fill="#d0e0e3" stroke="#45818e" stroke-width="2"/>
+  <text x="475" y="260" font-size="16" text-anchor="middle">6. خادم الاستضافة</text>
+  <text x="475" y="282" font-size="13" text-anchor="middle">Web Server</text>
+
+  <rect x="700" y="230" width="170" height="70" rx="10" fill="#d9d2e9" stroke="#674ea7" stroke-width="2"/>
+  <text x="785" y="260" font-size="16" text-anchor="middle">7. عرض الصفحة</text>
+  <text x="785" y="282" font-size="13" text-anchor="middle">HTML Response</text>
+
+  <line x1="720" y1="115" x2="672" y2="115" stroke="#333333" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="520" y1="115" x2="472" y2="115" stroke="#333333" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="320" y1="115" x2="272" y2="115" stroke="#333333" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="195" y1="150" x2="195" y2="228" stroke="#333333" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="272" y1="265" x2="398" y2="265" stroke="#333333" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="552" y1="265" x2="698" y2="265" stroke="#333333" stroke-width="2" marker-end="url(#arrow)"/>
+</svg>
